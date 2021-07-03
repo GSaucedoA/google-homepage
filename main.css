@@ -13,22 +13,36 @@ body {
 }
 .logo {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 25px auto;
 }
 .search-box {
   display: flex;
   justify-content: space-between;
-  border: 1px solid #dfe1e5;
+  border: 2px solid #dfe1e5;
   width: 600px;
-  margin: 0 auto;
-  border-radius: 16px;
-  padding: 4px;
+  margin: 25px auto;
+  border-radius: 32px;
+  padding: 8px;
 }
 .search-box:hover {
-  border: 1px solid white;
-  box-shadow: 0 0 8px #dfe1e5;
+  border: 2px solid white;
+  box-shadow: 0 0 4px 4px #dfe1e5;
 }
 .search-box:focus {
-  border: 1px solid white;
+  border: 2px solid white;
   box-shadow: 0 0 8px #dfe1e5;
+}
+.left-icon {
+  opacity: 0.4;
+  font-size: 24px;
+}
+.buscar {
+  border: 1px solid #f8f9fa;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  font-size: 14px;
+}
+.buscar:hover {
+  border: 1px solid #dadce0;
 }
