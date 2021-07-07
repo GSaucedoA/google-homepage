@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/google_favicon.png"
+      type="image/x-icon"
+    />
     <title>Google</title>
     <!-- Iconos -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
     <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Resetear CSS en los navegadores -->
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
     <!-- Mis estilos -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-      <header> <span>Gmail</span><span>Imágenes</span> <span>X</span> <span>IMG</span></header>
-      <main class="main">
-          <img class="logo" src="" alt="" srcset="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-          <div class="search-box left-icon">
-            <span class="material-icons">
-                search
-                </span>
-              <input type="search" class="search"/>
-              <span class="material-icons right">
-                keyboard_voice
-                </span>
-          </div>
-          <div>
-              <input type="button"  class="buscar" value="Buscar con google"/>
-              <input type="button"  class="buscar" value="Me siento con suerte"/>
-          </div>
-      </main>
+    <header>
+      <span class="header_text gmail">Gmail</span>
+      <span class="header_text">Imágenes</span>
+      <img class="svg menu" src="./images/google_menu.svg" alt="" />
+      <img src="./images/user_picture.png" alt="" />
+    </header>
+    <main class="main">
+      <img class="logo" src="./images/google_logo.png" alt="" />
+      <div class="search-box">
+        <img class="svg search_icon" src="./images/google_search.svg" alt="" />
+        <input type="search" class="search" />
+        <img class="svg mic_icon" src="./images/google_mic.svg" alt="" />
+      </div>
+      <div class="buttons">
+        <input type="button" class="buscar" value="Buscar con Google" />
+        <input type="button" class="buscar" value="Me siento con suerte" />
+      </div>
+    </main>
   </body>
 </html>
